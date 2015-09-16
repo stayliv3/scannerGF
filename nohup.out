@@ -82,3 +82,35 @@ socket.error: [Errno 13] Permission denied
 127.0.0.1 - - [16/Sep/2015 16:33:54] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
 2015-09-16 16:33:54,656 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
 127.0.0.1 - - [16/Sep/2015 16:33:54] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 17:43:43,138 [1;34mD/(app.py:1461)=> GET http://127.0.0.1:8099/ [0m
+127.0.0.1 - - [16/Sep/2015 17:43:43] "GET / HTTP/1.1" 200 -
+2015-09-16 17:43:43,414 [1;34mD/(app.py:1461)=> GET http://127.0.0.1:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 17:43:43] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 17:43:47,636 [1;34mD/(app.py:1461)=> GET http://127.0.0.1:8099/ [0m
+127.0.0.1 - - [16/Sep/2015 17:43:47] "GET / HTTP/1.1" 200 -
+2015-09-16 17:43:47,813 [1;34mD/(app.py:1461)=> GET http://127.0.0.1:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 17:43:47] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 17:44:09,176 [1;34mD/(app.py:1461)=> GET http://127.0.0.1:8099/ [0m
+127.0.0.1 - - [16/Sep/2015 17:44:09] "GET / HTTP/1.1" 200 -
+2015-09-16 17:44:09,403 [1;34mD/(app.py:1461)=> GET http://127.0.0.1:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 17:44:09] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 17:45:14,561 [1;34mD/(app.py:1461)=> GET http://localhost:8099/ [0m
+127.0.0.1 - - [16/Sep/2015 17:45:14] "GET / HTTP/1.1" 200 -
+2015-09-16 17:45:14,832 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 17:45:14] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 17:45:23,440 [1;34mD/(app.py:1461)=> GET http://localhost:8099/ [0m
+127.0.0.1 - - [16/Sep/2015 17:45:23] "GET / HTTP/1.1" 200 -
+2015-09-16 17:45:23,673 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 17:45:23] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 17:45:24,550 [1;34mD/(app.py:1461)=> GET http://localhost:8099/ [0m
+127.0.0.1 - - [16/Sep/2015 17:45:24] "GET / HTTP/1.1" 200 -
+2015-09-16 17:45:24,786 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 17:45:24] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 17:45:25,198 [1;34mD/(app.py:1461)=> GET http://localhost:8099/ [0m
+127.0.0.1 - - [16/Sep/2015 17:45:25] "GET / HTTP/1.1" 200 -
+2015-09-16 17:45:25,402 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 17:45:25] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 17:45:27,026 [1;34mD/(app.py:1461)=> GET http://localhost:8099/ [0m
+127.0.0.1 - - [16/Sep/2015 17:45:27] "GET / HTTP/1.1" 200 -
+2015-09-16 17:45:27,148 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 17:45:27] "GET /favicon.ico HTTP/1.1" 200 -

@@ -34,7 +34,7 @@ def catch_all(path):
 		else:
 			pass
 
-
+	Log.e(path)
 	return 'hello my baby!'
 
 	# return str(path) + str(request.get_data()) + str(request.method) + str(request.form)
