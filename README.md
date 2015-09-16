@@ -1,2 +1,4 @@
 # scannerGF
-a little flask web app to log all scanner visit
+a little flask web app to log all scanner behavior
+
+
