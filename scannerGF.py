@@ -17,7 +17,7 @@ app = Flask(__name__)
 notexisturls = ['neverexist','nevercouldexist']
 #路由所有URL
 
-@app.route('webscan_360_cn.html')
+@app.route('/webscan_360_cn.html')
 def webscan():
     return 'dc5445503925addea4cd3db496a78c66'
 
