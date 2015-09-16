@@ -1,0 +1,84 @@
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+Traceback (most recent call last):
+  File "scannerGF.py", line 45, in <module>
+    app.run(host="0.0.0.0",port=80)
+  File "/usr/local/lib/python2.7/site-packages/flask/app.py", line 772, in run
+    run_simple(host, port, self, **options)
+  File "/usr/local/lib/python2.7/site-packages/werkzeug/serving.py", line 625, in run_simple
+    inner()
+  File "/usr/local/lib/python2.7/site-packages/werkzeug/serving.py", line 603, in inner
+    passthrough_errors, ssl_context).serve_forever()
+  File "/usr/local/lib/python2.7/site-packages/werkzeug/serving.py", line 512, in make_server
+    passthrough_errors, ssl_context)
+  File "/usr/local/lib/python2.7/site-packages/werkzeug/serving.py", line 440, in __init__
+    HTTPServer.__init__(self, (host, int(port)), handler)
+  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 420, in __init__
+    self.server_bind()
+  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/BaseHTTPServer.py", line 108, in server_bind
+    SocketServer.TCPServer.server_bind(self)
+  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 434, in server_bind
+    self.socket.bind(self.server_address)
+  File "/usr/local/Cellar/python/2.7.9/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 13] Permission denied
+ * Running on http://0.0.0.0:8099/ (Press CTRL+C to quit)
+2015-09-16 16:33:20,686 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:20] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:20,888 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:20] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:23,501 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:23] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:23,709 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:23] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:23,944 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:23] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:24,056 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:24] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:24,231 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:24] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:24,243 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:24] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:24,423 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:24] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:24,441 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:24] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:24,545 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:24] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:24,746 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:24] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:24,754 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:24] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:24,963 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:24] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:25,051 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:25] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:25,205 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:25] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:27,364 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:27] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:27,556 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:27] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:27,657 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:27] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:27,776 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:27] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:27,877 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:27] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:28,114 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:28] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:28,135 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:28] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:28,279 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:28] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:53,500 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:53] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:53,730 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:53] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:54,028 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:54] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:54,245 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:54] "GET /favicon.ico HTTP/1.1" 200 -
+2015-09-16 16:33:54,449 [1;34mD/(app.py:1461)=> GET http://localhost:8099/asdflkasdfl' aslkdfj  asdf [0m
+127.0.0.1 - - [16/Sep/2015 16:33:54] "GET /asdflkasdfl'%20aslkdfj%20%20asdf HTTP/1.1" 200 -
+2015-09-16 16:33:54,656 [1;34mD/(app.py:1461)=> GET http://localhost:8099/favicon.ico [0m
+127.0.0.1 - - [16/Sep/2015 16:33:54] "GET /favicon.ico HTTP/1.1" 200 -

@@ -25,10 +25,14 @@ def webscan():
 @app.route('/', defaults={'path': '/'},methods=['GET', 'POST', 'PUT', 'HEAD', 'DELETE'])
 @app.route('/<path:path>',methods=['GET', 'POST', 'PUT', 'HEAD','DELETE'])
 def catch_all(path):
+	Log.i(path)
 	Log.d(str(request.method) + ' ' + str(request.url) +' ' + str(request.get_data()))
 	for url in notexisturls:
 		if url in path:
+			Log.d(path)
 			abort(404)
+		else:
+			pass
 
 
 	return 'hello my baby!'
@@ -42,4 +46,4 @@ def catch_all(path):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0",port=80)
+    app.run(host="0.0.0.0",port=8099)
