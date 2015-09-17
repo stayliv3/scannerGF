@@ -65,7 +65,7 @@ class Logger:
         filename, line, function = self.logger.findCaller()
         self.logger.critical('\x1b[1;31mC/(%s:%s)=> %s\x1b[0m' % (os.path.basename(filename), line, msg))
 
-Log = Logger('debug')
+Log = Logger('info')
 
 if __name__ == "__main__":
     Log.i("Test for info level log formatter print")

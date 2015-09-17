@@ -6,13 +6,13 @@ __author__ = 'xdxd'
 from flask import Flask
 from flask import request
 from flask import abort, redirect, url_for
-
+import time
 from utils.pencillog import *
 
 
 
 #log to file
-logging.basicConfig(filename='log.txt',level=logging.DEBUG)
+logging.basicConfig(filename='log.txt',level=logging.INFO)
 app = Flask(__name__)
 notexisturls = ['neverexist','nevercouldexist']
 #路由所有URL
@@ -25,8 +25,8 @@ def webscan():
 @app.route('/', defaults={'path': '/'},methods=['GET', 'POST', 'PUT', 'HEAD', 'DELETE'])
 @app.route('/<path:path>',methods=['GET', 'POST', 'PUT', 'HEAD','DELETE'])
 def catch_all(path):
-	Log.i(path)
-	Log.d(str(request.method) + ' ' + str(request.url) +' ' + str(request.get_data()))
+	Log.d(path)
+	Log.i(str(request.method) + ' ' + str(request.url) +' ' + str(request.get_data()))
 	for url in notexisturls:
 		if url in path:
 			Log.d(path)
@@ -34,8 +34,8 @@ def catch_all(path):
 		else:
 			pass
 
-	Log.e(path)
-	return 'hello my baby!'
+	Log.d(path)
+	return 'hello my baby!' + str(time.time())
 
 	# return str(path) + str(request.get_data()) + str(request.method) + str(request.form)
 	# return '111'
