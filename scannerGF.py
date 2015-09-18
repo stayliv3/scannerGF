@@ -21,6 +21,9 @@ notexisturls = ['neverexist','nevercouldexist']
 def webscan():
     return 'dc5445503925addea4cd3db496a78c66'
 
+@app.route('baidu-verify-C88E329F6A.txt')
+def baiduscan():
+	return 'c7701f214f170243f820b45f7cb04258'
 
 @app.route('/', defaults={'path': '/'},methods=['GET', 'POST', 'PUT', 'HEAD', 'DELETE'])
 @app.route('/<path:path>',methods=['GET', 'POST', 'PUT', 'HEAD','DELETE'])
